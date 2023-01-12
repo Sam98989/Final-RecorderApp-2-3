@@ -11,7 +11,7 @@ import SwiftUI
 struct RecorderAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreen()
         }
     }
 }

@@ -7,18 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C25F4950296D9C57003D546F /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25F494F296D9C57003D546F /* SplashScreen.swift */; };
+		C25F4958296DCC19003D546F /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25F4957296DCC19003D546F /* test.swift */; };
 		C283C29D296585D800AC5288 /* RecorderAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C283C29C296585D800AC5288 /* RecorderAppApp.swift */; };
 		C283C29F296585D800AC5288 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C283C29E296585D800AC5288 /* ContentView.swift */; };
 		C283C2A1296585DA00AC5288 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C283C2A0296585DA00AC5288 /* Assets.xcassets */; };
 		C283C2A4296585DA00AC5288 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C283C2A3296585DA00AC5288 /* Preview Assets.xcassets */; };
+		C283C2AB2965874C00AC5288 /* AudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C283C2AA2965874C00AC5288 /* AudioRecorder.swift */; };
+		C283C2AD296589B900AC5288 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C283C2AC296589B900AC5288 /* AudioPlayer.swift */; };
+		C283C2B029658A7E00AC5288 /* RecordingDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C283C2AF29658A7E00AC5288 /* RecordingDataModel.swift */; };
+		C283C2B229658A9700AC5288 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C283C2B129658A9600AC5288 /* Helper.swift */; };
+		C283C2B429658ACC00AC5288 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C283C2B329658ACC00AC5288 /* Extensions.swift */; };
+		C283C2B629658BD900AC5288 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C283C2B529658BD900AC5288 /* Colors.swift */; };
+		C283C2B829658CB500AC5288 /* RecordingHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C283C2B729658CB500AC5288 /* RecordingHistory.swift */; };
+		C283C2BA29658CFD00AC5288 /* RecordingsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C283C2B929658CFD00AC5288 /* RecordingsList.swift */; };
+		C2971882296BF2AD00DB4FC5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2971884296BF2AD00DB4FC5 /* Localizable.strings */; };
+		F2ED17E9296D52FF007F43D5 /* MontserratAlternates-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2ED17E7296D52FF007F43D5 /* MontserratAlternates-Regular.ttf */; };
+		F2ED17EA296D52FF007F43D5 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = F2ED17E8296D52FF007F43D5 /* OFL.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C25F494F296D9C57003D546F /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		C25F4957296DCC19003D546F /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		C25F4959296F0A89003D546F /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C25F495A296F0A90003D546F /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C25F495B296F0A97003D546F /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C25F495C296F0BDB003D546F /* fil */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fil; path = fil.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C283C299296585D800AC5288 /* RecorderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecorderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C283C29C296585D800AC5288 /* RecorderAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecorderAppApp.swift; sourceTree = "<group>"; };
 		C283C29E296585D800AC5288 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C283C2A0296585DA00AC5288 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C283C2A3296585DA00AC5288 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C283C2AA2965874C00AC5288 /* AudioRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorder.swift; sourceTree = "<group>"; };
+		C283C2AC296589B900AC5288 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		C283C2AF29658A7E00AC5288 /* RecordingDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingDataModel.swift; sourceTree = "<group>"; };
+		C283C2B129658A9600AC5288 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		C283C2B329658ACC00AC5288 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C283C2B529658BD900AC5288 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		C283C2B729658CB500AC5288 /* RecordingHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingHistory.swift; sourceTree = "<group>"; };
+		C283C2B929658CFD00AC5288 /* RecordingsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingsList.swift; sourceTree = "<group>"; };
+		C297187F296BEF3400DB4FC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C2971883296BF2AD00DB4FC5 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C2971885296BF2B400DB4FC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F2ED17E7296D52FF007F43D5 /* MontserratAlternates-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Regular.ttf"; sourceTree = "<group>"; };
+		F2ED17E8296D52FF007F43D5 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +67,7 @@
 		C283C290296585D800AC5288 = {
 			isa = PBXGroup;
 			children = (
+				C2971884296BF2AD00DB4FC5 /* Localizable.strings */,
 				C283C29B296585D800AC5288 /* RecorderApp */,
 				C283C29A296585D800AC5288 /* Products */,
 			);
@@ -51,8 +84,17 @@
 		C283C29B296585D800AC5288 /* RecorderApp */ = {
 			isa = PBXGroup;
 			children = (
+				C2971889296C085E00DB4FC5 /* fonts */,
+				C297187F296BEF3400DB4FC5 /* Info.plist */,
 				C283C29C296585D800AC5288 /* RecorderAppApp.swift */,
+				C283C2AA2965874C00AC5288 /* AudioRecorder.swift */,
+				C283C2AC296589B900AC5288 /* AudioPlayer.swift */,
+				C25F4957296DCC19003D546F /* test.swift */,
+				C25F494F296D9C57003D546F /* SplashScreen.swift */,
+				C283C2B929658CFD00AC5288 /* RecordingsList.swift */,
 				C283C29E296585D800AC5288 /* ContentView.swift */,
+				C283C2B729658CB500AC5288 /* RecordingHistory.swift */,
+				C283C2AE29658A5A00AC5288 /* Extientions */,
 				C283C2A0296585DA00AC5288 /* Assets.xcassets */,
 				C283C2A2296585DA00AC5288 /* Preview Content */,
 			);
@@ -65,6 +107,26 @@
 				C283C2A3296585DA00AC5288 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C283C2AE29658A5A00AC5288 /* Extientions */ = {
+			isa = PBXGroup;
+			children = (
+				C283C2AF29658A7E00AC5288 /* RecordingDataModel.swift */,
+				C283C2B129658A9600AC5288 /* Helper.swift */,
+				C283C2B329658ACC00AC5288 /* Extensions.swift */,
+				C283C2B529658BD900AC5288 /* Colors.swift */,
+			);
+			path = Extientions;
+			sourceTree = "<group>";
+		};
+		C2971889296C085E00DB4FC5 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F2ED17E7296D52FF007F43D5 /* MontserratAlternates-Regular.ttf */,
+				F2ED17E8296D52FF007F43D5 /* OFL.txt */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +171,11 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
+				fr,
+				hi,
+				id,
+				fil,
 			);
 			mainGroup = C283C290296585D800AC5288;
 			productRefGroup = C283C29A296585D800AC5288 /* Products */;
@@ -125,7 +192,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2ED17EA296D52FF007F43D5 /* OFL.txt in Resources */,
 				C283C2A4296585DA00AC5288 /* Preview Assets.xcassets in Resources */,
+				C2971882296BF2AD00DB4FC5 /* Localizable.strings in Resources */,
+				F2ED17E9296D52FF007F43D5 /* MontserratAlternates-Regular.ttf in Resources */,
 				C283C2A1296585DA00AC5288 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,12 +207,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C283C2AB2965874C00AC5288 /* AudioRecorder.swift in Sources */,
+				C25F4958296DCC19003D546F /* test.swift in Sources */,
+				C283C2B629658BD900AC5288 /* Colors.swift in Sources */,
+				C283C2B029658A7E00AC5288 /* RecordingDataModel.swift in Sources */,
+				C283C2B829658CB500AC5288 /* RecordingHistory.swift in Sources */,
 				C283C29F296585D800AC5288 /* ContentView.swift in Sources */,
 				C283C29D296585D800AC5288 /* RecorderAppApp.swift in Sources */,
+				C25F4950296D9C57003D546F /* SplashScreen.swift in Sources */,
+				C283C2AD296589B900AC5288 /* AudioPlayer.swift in Sources */,
+				C283C2BA29658CFD00AC5288 /* RecordingsList.swift in Sources */,
+				C283C2B229658A9700AC5288 /* Helper.swift in Sources */,
+				C283C2B429658ACC00AC5288 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C2971884296BF2AD00DB4FC5 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2971883296BF2AD00DB4FC5 /* ar */,
+				C2971885296BF2B400DB4FC5 /* en */,
+				C25F4959296F0A89003D546F /* fr */,
+				C25F495A296F0A90003D546F /* hi */,
+				C25F495B296F0A97003D546F /* id */,
+				C25F495C296F0BDB003D546F /* fil */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C283C2A5296585DA00AC5288 /* Debug */ = {
@@ -267,8 +363,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"RecorderApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 4EWAUJCQE4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RecorderApp/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to your microphone to conduct recording sessions";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -295,8 +394,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"RecorderApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 4EWAUJCQE4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RecorderApp/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to your microphone to conduct recording sessions";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
