@@ -23,15 +23,13 @@ and can create simpler data structures.
 
 2. AVFoundation - To play, record, and process audio.
 
-what was used: 
-
-AVAudioSession: 
+* AVAudioSession: 
 An object that communicates to the system how you intend to use audio in your app.
 
-AVAudioPlayer:
+* AVAudioPlayer:
 An object that plays audio data from a file or buffer.
 
-AVAudioRecorder:
+* AVAudioRecorder:
 an object that records audio data to a file.
 
 3. Accessibility (VoiceControl)
